@@ -3,7 +3,7 @@ import axios from "axios";
 import './Register.css';
 import { Link, Navigate } from 'react-router-dom';
 
-const baseURL = "https://www.essenzadfiori.com.br/api-stk/public/api/auth/login";
+const baseURL = "https://http://127.0.0.1:8000/api/auth/login";
 
 export default function Login() {
     const [formData, setFormData] = useState({
