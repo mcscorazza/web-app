@@ -3,7 +3,7 @@ import axios from "axios";
 import './Register.css';
 import { Link } from 'react-router-dom';
 
-const baseURL = "http://127.0.0.1:8000/api/auth/register";
+const baseURL = "http://127.0.0.1:8001/api/auth/register";
 
 export default function Register() {
     
